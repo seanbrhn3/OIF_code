@@ -1,0 +1,42 @@
+version: '3'
+services:
+  # web:
+  #   build: .
+  #   ports:
+  #     - "5000:5000"
+    actuator1:
+      image: ubuntu:latest
+      container_name: Drone Survailance Radar
+      command: apt-get update && apt-get install git
+    actuator2:
+      image: ubuntu:latest
+      container_name: Long Range Survailance Radar
+      command: apt-get update && apt-get install git
+    actuator3:
+      image: ubuntu:latest
+      container_name: RF Tracking System
+      command: apt-get update && apt-get install git
+    actuator4:
+      image: ubuntu:latest
+      container_name: Mobile Response Team
+      command: apt-get update && apt-get install git
+    actuator5:
+      image: ubuntu:latest
+      container_name: Jamming System
+      command: apt-get update && apt-get install git
+    actuator6:
+      image: ubuntu:latest
+      container_name: Drone Catcher System
+      command: apt-get update && apt-get install git
+    actuator7:
+      image: ubuntu:latest
+      container_name: Laser Weapon System
+      command: apt-get update && apt-get install git
+    actuator8:
+      image: ubuntu:latest
+      container_name: Drone Nuetralization System
+      command: apt-get update && apt-get install git
+    actuator9:
+      image: ubuntu:latest
+      container_name: Listener
+      command: apt-get update && apt-get install git

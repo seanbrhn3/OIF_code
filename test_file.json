@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "Accept-Encoding": "identity",
+    "Content-Length": "54",
+    "Content-Type": "application/openc2-cmd+json;version=1.0",
+    "X-Request-Id": "ae143418-83f8-40b1-a56f-9bd57c6bb4db",
+    "Date": "Thu, 19 Dec 2019 19:32:38 GMT",
+    "From": "35e355af-57cf-4cb2-8c53-dc1f4c2628ba@10.3.0.34:5000",
+    "Host": "oc2slpf_version_1.0_json_schema@10.3.0.34:5001"
+  },
+  "content": {
+    "action": "query",
+    "target": {
+      "features": ["pairs"]
+    }
+  }
+}
